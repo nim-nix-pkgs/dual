@@ -11,7 +11,6 @@
   inputs.src-dual-master.ref   = "refs/heads/master";
   inputs.src-dual-master.owner = "drjdn";
   inputs.src-dual-master.repo  = "nim_dual";
-  inputs.src-dual-master.dir   = "";
   inputs.src-dual-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
